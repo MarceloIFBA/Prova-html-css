@@ -90,7 +90,7 @@ body::before{
     cursor: pointer;
 }
 
-.support {
+.suporte {
     display: flex;
     color: #fff;
     justify-content: space-between;
@@ -98,27 +98,27 @@ body::before{
     margin-bottom: 5px;
 }
 
-.support input {
+.suporte input {
     width: 15px;
     height: 15px;
 }
 
-.remember {
+.lembrar {
     display: flex;
     align-items: center;
 }
 
-.remember span {
+.lembrar span {
     margin-right: 5px;
     height: 25px;
 }
 
-.help a {
+.ajuda a {
     text-decoration: none;
     color: #fff;
 }
 
-.help a:hover {
+.ajuda a:hover {
     text-decoration: underline;
 }
 
@@ -154,16 +154,51 @@ body::before{
     text-decoration: underline;
 }
 
-.terms {
+.termos {
     color: #fff;
     font-size: 13px;
 }
 
-.terms a {
+.termos a {
     text-decoration: none;
     color: #0071eb;
 }
 
-.terms a:hover {
+.termos a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+
+.tabela_filmes {
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tabela_filmes th, .tabela_filmes td {
+    padding: 15px;
+    text-align: left;
+}
+
+.tabela_filmes th {
+    background-color: #e50914;
+    color: #fff;
+}
+
+.tabela_filmes td img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.tabela_filmes tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
 }
