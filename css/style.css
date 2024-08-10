@@ -168,37 +168,3 @@ body::before{
     text-decoration: underline;
 }
 
-
-
-
-
-
-.tabela_filmes {
-    width: 95%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: rgba(0, 0, 0, 0.75);
-    color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.tabela_filmes th, .tabela_filmes td {
-    padding: 15px;
-    text-align: left;
-}
-
-.tabela_filmes th {
-    background-color: #e50914;
-    color: #fff;
-}
-
-.tabela_filmes td img {
-    width: 100px;
-    height: auto;
-    border-radius: 5px;
-}
-
-.tabela_filmes tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.1);
-}
