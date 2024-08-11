@@ -41,3 +41,9 @@ body{
 .tabela_filmes tr:nth-child(even) {
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+.tabela_filmes td img {
+    width: 150px; 
+    height: auto;
+    border-radius: 5px;
+}
