@@ -4,8 +4,8 @@ body{
     height: 100vh;
     width: 100%;
     position: relative;
-    background-color: black;
-    background-image: cover;
+    background-image: url('/imagens/fundo4.jpg');
+    background-attachment: fixed;
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -46,4 +46,11 @@ body{
     width: 150px; 
     height: auto;
     border-radius: 5px;
+}
+
+.titulo {
+    color: #fff;
+    margin: 20px auto 10px auto; /* 20px em cima, 10px em baixo, auto para centralizar horizontalmente */
+    width: 95%; /* Mesma largura da tabela */
+    text-align: left; /* Alinhar o texto à esquerda */
 }
