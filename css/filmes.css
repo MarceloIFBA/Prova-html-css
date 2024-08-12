@@ -55,3 +55,11 @@ body{
     width: 95%; 
     text-align: left; 
 }
+
+.top_10 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
