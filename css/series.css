@@ -38,9 +38,6 @@ body{
     border-radius: 5px;
 }
 
-.tabela_series tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.1);
-}
 
 .tabela_series td img {
     width: 150px; 
